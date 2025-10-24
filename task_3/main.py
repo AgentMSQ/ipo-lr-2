@@ -1,4 +1,4 @@
-import math 
-x = float(input("Объем шара: "))
-r = pow(3 * x / (4 * math.pi), 1/3)
-print(f"Радиус: {r}")
+import math #библиотека
+x = float(input("Объем шара: ")) #вводим объем шара
+r = pow(3 * x / (4 * math.pi), 1/3) #радиус считаем по формуле
+print(f"Радиус: {r}") #выводим
